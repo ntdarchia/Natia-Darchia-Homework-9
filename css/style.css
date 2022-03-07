@@ -1,0 +1,103 @@
+/* Global */
+.flex {
+    display: flex;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+}
+.fontFamily {
+    font-family: 'Raleway-SemiBold', sans-serif;
+}
+/* Header Section */
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #ffffff;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
+.headerContainer {
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto 30px;
+}
+.navLi {
+    margin-right: 49px;
+}
+.navLi > a {
+	font-size: 15.7px;
+	text-align: center;
+	line-height: 37px;
+	color: #303134;
+}
+.navLi > a:hover {
+    color: red;
+}
+/* end of Header Section */
+/* Section 1 */
+.coverDiv {
+    margin: 80px 0px;
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/cover.png);
+}
+.coverText > h1 {
+    font-size: 78.7px;
+	text-align: left;
+	line-height: 53px;
+	color: #ffffff;
+	margin-bottom: 36px;
+}
+.coverText > p {
+    font-size: 18px;
+	text-align: center;
+	line-height: 37px;
+	color: #ffffff;
+}
+/* Section 2 */
+.secondSection {
+    width: 90%;
+    margin: 0px auto;
+}
+.leftAricle {
+    width: 240px;
+    margin-right: 59px;
+}
+.leftAricle > h2 {
+    font-size: 26px;
+	text-align: left;
+	color: #1a1a1b;
+	margin-bottom: 40px;
+}
+.leftAricle > h3 {
+    font-size: 16px;
+	text-align: left;
+	line-height: 37px;
+	color: #8d8d8d;
+}
+.articleTextStyle {
+	font-size: 16px;
+	text-align: left;
+	line-height: 22px;
+	color: #8d8d8d;
+}
+/* FlexBox */
+.ArticleFlexContainer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 870px;
+}
+.divStyle {
+    width: 269px;
+	margin-bottom: 10px;
+}
+.articleH3Style {
+	font-size: 18px;
+	text-align: left;
+	color: #1a1a1b;
+	margin-top: 22px;
+	margin-bottom: 9px;
+}
