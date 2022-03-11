@@ -1,4 +1,8 @@
 /* Global */
+/* body {
+    margin: 0px;
+    overflow-x: hidden;
+} */
 .flex {
     display: flex;
 }
@@ -8,6 +12,11 @@
 }
 .fontFamily {
     font-family: 'Raleway-SemiBold', sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 /* Header Section */
 header{
@@ -19,7 +28,7 @@ header{
 	z-index: 2;
 }
 .headerContainer {
-    width: 90%;
+    padding: 0px 25px;
     justify-content: space-between;
     align-items: center;
     margin: 25px auto 30px;
@@ -36,6 +45,12 @@ header{
 .navLi > a:hover {
     color: red;
 }
+.burgerMenu {
+    cursor: pointer;
+    display: none;
+    width: 50px;
+    height: 50px;
+}
 /* end of Header Section */
 /* Section 1 */
 .coverDiv {
@@ -43,8 +58,11 @@ header{
     width: 100%;
     height: 650px;
     background-image: url(../images/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .coverText > h1 {
+    font-size: 8vw;
     font-size: 78.7px;
 	text-align: left;
 	line-height: 53px;
@@ -63,7 +81,7 @@ header{
     margin: 0px auto;
 }
 .leftAricle {
-    width: 240px;
+    max-width: 30%;
     margin-right: 59px;
 }
 .leftAricle > h2 {
@@ -91,7 +109,7 @@ header{
     width: 870px;
 }
 .divStyle {
-    width: 269px;
+    max-width: 269px;
 	margin-bottom: 10px;
 }
 .articleH3Style {
